@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <div id="header">
+            <div id="udemy_logo">
+                <img src="udemy.jpg" width="50px"alt="Udemy" href="index.html">
+                <a href="index.html"></a>
+            </div>
+            <div class="header_text" id="Categories_btn">
+                Categories
+            </div>
+            <div id="search_box">
+               <a href="course_1_page.html">
+                   <img class="search-btn" src="Search.jpg">
+               </a>
+                <input type="text" placeholder="Search for anything">
+            </div>
+            <div class="header_text">Udemy Business</div>
+            <div class="header_text">Teach on Udemy</div>
+            <a href="cart_page.html"><button id="cart"><img src="https://cdn3.iconfinder.com/data/icons/shopping-cart-19/200/457-128.png"></button></a>
+            <button id="log_in"><a href="login.html">Log In</a></button>
+            <button id="sign_up"><a href="signup.html">Sign Up </a></button>
+            <button id="globe"><img src="https://cdn3.iconfinder.com/data/icons/media-1-3/32/Internet-Globe-Communication-128.png"></button>
+        </div>
+        <style>
+            #header {
+            display: flex;
+            background: white;
+        }
+        #udemy_logo  {
+            width: 100px;
+            border: 1px solid white ;
+            height: 50px;
+        }
+        #search_box input{
+            flex-grow: 2;
+            border: 1px solid white;
+            width: 95%;
+            height: 30px;
+            margin-right:15px;
+            /* border-radius: 30px; */
+            outline:none;
+        }
+        .search-btn {
+            width: 20px;
+            height: 20px;
+        }
+        #search_box {
+            flex-grow: 2;
+            margin-bottom: 1%;
+            display: flex;
+            margin-top: 5px;
+            border: 1px solid black;
+            border-radius: 40px;
+        }
+        .header_text {
+            font-size: .9rem;
+            font-weight: 400;
+            line-height: 1.4;
+            margin-top: 20px;
+        }
+        
+       #sign_up {
+           background: black;
+           border: 1px solid black;
+           width: 90px;
+           margin: 10px 3px;
+           font-weight: bold;
+           font-size: 0.8rem;
+       }
+       #log_in {
+           background: white;
+           border: 1px solid black;
+           width: 90px;
+           margin: 10px auto;
+           font-weight: bold;
+           font-size: 0.8rem;
+       }
+       #cart {
+           background: white;
+           border: 0px solid black;
+       }
+       #cart img {
+        width: 30px;
+           height: 30px;
+       }
+       #globe {
+        background: white;
+           border: 1px solid black;
+           margin: 10px 3px;
+       }
+       #globe img {
+
+        width: 20px;
+           height: 20px;
+       }
+       * {
+            margin: 5px;
+        } 
+         #footer {
+    background-color: black;
+    margin:0px;
+    width:100%;
+    height:300px;
+    border:1px solid black;
+    margin-top:5%;
+
+}
+.footer-link {
+    display: grid;
+    margin:20px 20px 30px 30px;
+    width:60%;
+    grid-template-columns:28% 28% 28%;
+    grid-template-rows: 10% 10% 10% 10% 10%;
+    gap:5%;
+    color:white;
+    /* border: 3px solid white */
+
+}
+.footer-link div:nth-child(12) {
+    grid-row-start: 5;
+    }
+    button {
+        background-color: purple;
+    }
+        </style>
+        <div>
+        <h1>Shopping cart</h1>
+        </div>
+        
+        <div id="footer">
+                <div class="final-flex">
+                <div class="footer-link">
+                    <div><p>Udemy Business</p></div>
+                    <div><p>Careers</p></div>
+                    <div><p>Terms</p></div>
+                    <div><p>Teach on Udemy</p></div>
+                    <div><p>Blog</p></div>
+                    <div><p>Privacy policy</p></div>
+                    <div><p>Get the App</p></div>
+                    <div><p>Help and support</p></div>
+                    <div><p>Sitemap</p></div>
+                    <div><p>About us</p></div>
+                    <div><p>Affiliate</p></div>
+                    <div><p>Contact us</p></div>
+                </div>
+                 <div class="logo-img">
+                <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="" width="50px">
+                <div> © 2021 Udemy, Inc</div>
+
